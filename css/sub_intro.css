@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #1F1F1F;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-use-select: none;
+    user-select: none;
+}
+
+/* setting */
+
+#intro {
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 1920px;
+    height: 1000px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.slider_intro {
+    display: flex;
+    width: 5000px;
+    /*ul길이의 두배!*/
+    animation: rotate 35s linear infinite;
+}
+
+.slider_intro2 {
+    display: flex;
+    width: 5000px;
+    /*ul길이의 두배!*/
+    animation: rotate_r 35s linear infinite;
+}
+
+.frame1 {
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    display: flex;
+    width: 2500px;
+    justify-content: space-around;
+}
+
+
+.frame1>li>img {
+    width: 342px;
+}
+
+
+
+@keyframes rotate {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -2500px;
+    }
+}
+
+@keyframes rotate_r {
+    0% {
+        margin-left: -2500px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+/* ----2층--- */
+
+.blur {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: 3;
+    width: 2000px;
+    height: 1000px;
+    background-color: #1f1f1f5e;
+    backdrop-filter: saturate(150%) blur(15px);
+}
+
+.img_text_wrap {
+    width: 1920px;
+    height: 1080px;
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#logo{
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    left: 27%;
+
+}
+
+#logo>a>img {
+    width: 100%;
+    transition: all 0.3s;
+}
+
+#logo>a>img:hover{
+    transform: scale(1.2, 1.2);
+    transition: all 0.3s;
+}
+
+.slogan{
+    margin-top: 50px;
+    width: 40%;
+    position: absolute;
+    top: 0%;
+    left: 27%;
+}
+.slogan>img {
+    width: 100%;
+}
