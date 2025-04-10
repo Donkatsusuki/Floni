@@ -23,12 +23,14 @@ body {
     user-select: none;
 }
 
+
 /* setting */
 
 #intro {
     padding-top: 10px;
     margin: 0 auto;
     width: 1920px;
+    min-width: 1400px;
     height: 1000px;
     box-sizing: border-box;
     overflow: hidden;
