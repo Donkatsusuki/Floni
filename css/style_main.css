@@ -64,6 +64,7 @@ html{
   overflow: hidden;
   position: relative;
   z-index: 1;
+  min-width: 1400px;
 }
 
 .slider_intro {
@@ -128,6 +129,7 @@ html{
   padding-top: 120px;
   margin: 0 auto;
   width: 1920px;
+  min-width: 1400px;
   height: 990px;
   box-sizing: border-box;
   overflow: hidden;
@@ -333,6 +335,7 @@ html{
 
 #container {
   width: 1920px;
+  min-width: 1400px;
   height: 2528px;
   background: url(../img/bg_img/gradient_bg_복사본.png) no-repeat center bottom;
   margin: 0 auto;
@@ -634,6 +637,7 @@ html{
 /* ----------- */
 #con_2p {
   width: 1920px;
+  min-width: 1400px;
   height: 1000px;
   margin: 100px auto;
   background: url(../img/bg_img/bluebg\ 1.png) no-repeat center bottom;
@@ -739,6 +743,7 @@ html{
 /* ----2pend */
 
 #membership_wrap {
+  min-width: 1400px;
   width: 1920px;
   padding-top: 160px;
   box-sizing: border-box;
@@ -819,7 +824,7 @@ h4 {
   z-index: 1;
 }
 .basic:hover {
-  background-color: #6A31CC;
+  background-color: #5320a9;
   transform: scale(1.12, 1.12);
   border-radius: 10px;
   transition: all 0.4s;
@@ -834,7 +839,7 @@ h4 {
   z-index: 1;
 }
 .premium:hover {
-  background-color: #E8C500;
+  background-color: #cdae00;
   transform: scale(1.12, 1.12);
   border-radius: 10px;
   transition: all 0.4s;
@@ -873,6 +878,7 @@ p,
 
 #event_wrap {
   width: 1920px;
+  min-width: 1400px;
   margin: 0 auto;
   text-align: center;
   color: #fff;
@@ -1092,6 +1098,7 @@ p,
 #con5 {
   background: url(../img/bg_img/download_event.png) no-repeat center bottom;
   width: 1920px;
+  min-width: 1400px;
   height: 250px;
   margin: 150px auto;
   overflow: hidden;
@@ -1132,6 +1139,7 @@ p,
 
 /* ---event end--- */
 #qna_wrap{
+  min-width: 1400px;
   padding-top: 160px;
 }
 
@@ -1243,6 +1251,14 @@ margin-bottom: 60px;
   text-align: center;
   padding: 50px 0;
 }
+
+
+/* ------------ */
+
+#footer_wrap{
+  min-width: 1400px;
+}
+
 
 .footer{
   width: 1320px;  
